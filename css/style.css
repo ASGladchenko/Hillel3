@@ -590,3 +590,7 @@ footer img:last-of-type:hover{
 .first_section h1:hover{
     color: #6488D4;
 }
+.for_lessons{
+    border: 2px solid gold;
+    border-radius: 12px;
+}
