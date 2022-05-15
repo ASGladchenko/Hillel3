@@ -262,14 +262,13 @@ header a {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
-}
-.cost_calculation_container2 label{
     padding: 20px;
     max-width: 368px;
     background: #FFFFFF;
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: .3s;
 }
 .cost_calculation_div_imgsize{
     max-width: 610px;
@@ -586,4 +585,31 @@ footer img:last-of-type:hover{
     border: 1px solid cyan;
     margin-left: -1px;
     margin-top: -1px;
+}
+.cost_calculation_form input[type="radio"]{
+    position: absolute;
+    left: -99999px;
+}
+.cost_calculation_form label::after{
+    content: '';
+    width: 15px;
+    height:15px ;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    transition: .3s;
+}
+.cost_calculation_form input:checked + label{
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    color: white;
+    transition: .3s;
+}
+
+.cost_calculation_form input:checked + label::after{
+    content: '';
+    border: none;
+    width: 18px;
+    height: 18px;
+    transition: .3s;
 }
