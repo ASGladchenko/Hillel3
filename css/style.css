@@ -126,7 +126,9 @@ header a {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
-
+}
+.about_us p span{
+        font-weight: 500;
 }
 .about_us .about_us_p1 {
     margin-bottom: 30px;
@@ -172,7 +174,15 @@ header a {
     line-height: 24px;
     color: #373737;
 }
-.advantages-p-margin {
+
+.advantages_h{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #373737;
     margin-bottom: 10px;
 }
 .section_portfolio{
