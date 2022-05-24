@@ -46,7 +46,6 @@
     </div>
 </section>
 <section class="second_section">
-    <img class="frame_second_section" src="images/Frame1.jpg" alt="Frame1">
     <div class="container d-flex">
         <div class="about_us">
             <h3>О нас</h3>
@@ -65,46 +64,46 @@
     </div>
 </section>
 <section class="third_section">
-    <div class="third_section_padding container">
-        <h3>Почему мы?</h3>
-    </div>
-    <div class="container d-flex advantages_left">
-        <div class="advantages">
-            <img src="images/chek.svg" alt="Icon">
-            <p class="advantages-p-margin"><strong>Первоклассное качество</strong></p>
-            <p>Высокое качество исполнения реализованных проектов и благодарные отзывы счастливых клиентов позволяют
-                утверждать что декорирование стен – наше призвание.</p>
-        </div>
-        <div class="advantages">
-            <img src="images/word.svg" alt="Icon">
-            <p class="advantages-p-margin"><strong>Материалы лучших брендов</strong></p>
-            <p>Подбор материалов берем на себя. Работаем с такими Торговыми Марками как Feidal, Spiver, Oikos, elf
-                decor, San Marco</p>
-        </div>
-        <div class="advantages">
-            <img src="images/truck.svg" alt="Icon">
-            <p class="advantages-p-margin"><strong>Скорость выполнения работ</strong></p>
-            <p>Приступаем к выполнению работ по Вашему заказку сразу после выезда специалиста на осмотр объекта.
-                Результат от 3-х рабочих дней.</p>
-        </div>
-        <div class="advantages">
-            <img style="text-align: center" src="images/infinity.svg" alt="Icon">
-            <p class="advantages-p-margin"><strong>Бесконечный творческий потенциал </strong></p>
-            <p>Наша команда - это не только крутые специалисты, но и креативные творческие люди, которые знают как
-                воплотить в жизнь Ваши идеи</p>
+    <div class="container">
+        <h3 class="third_section_h3">Почему мы?</h3>
+        <div class="d-flex align_items_normal">
+            <div class="advantages">
+                <img src="images/chek.svg" alt="Icon">
+                <p class="advantages-p-margin"><strong>Первоклассное качество</strong></p>
+                <p>Высокое качество исполнения реализованных проектов и благодарные отзывы счастливых клиентов позволяют
+                    утверждать что декорирование стен – наше призвание.</p>
+            </div>
+            <div class="advantages">
+                <img src="images/word.svg" alt="Icon">
+                <p class="advantages-p-margin"><strong>Материалы лучших брендов</strong></p>
+                <p>Подбор материалов берем на себя. Работаем с такими Торговыми Марками как Feidal, Spiver, Oikos, elf
+                    decor, San Marco</p>
+            </div>
+            <div class="advantages">
+                <img src="images/truck.svg" alt="Icon">
+                <p class="advantages-p-margin"><strong>Скорость выполнения работ</strong></p>
+                <p>Приступаем к выполнению работ по Вашему заказку сразу после выезда специалиста на осмотр объекта.
+                    Результат от 3-х рабочих дней.</p>
+            </div>
+            <div class="advantages">
+                <img style="text-align: center" src="images/infinity.svg" alt="Icon">
+                <p class="advantages-p-margin"><strong>Бесконечный творческий потенциал </strong></p>
+                <p>Наша команда - это не только крутые специалисты, но и креативные творческие люди, которые знают как
+                    воплотить в жизнь Ваши идеи</p>
+            </div>
+
         </div>
     </div>
 </section>
 <section class="section_portfolio">
-    <img class="pictures portfolio_frame" src="images/frame_portfolio.svg" alt="photo_frame">
-    <div class="container portfolio_align_button">
+    <div class="container">
         <h3>Портфолио</h3>
-        <div class="container portfolio_main">
+        <div class="container d-flex portfolio_main">
             <div class="portfolio_div_size">
                 <div class="portfolio_div_size">
                     <img class="portfolio_img pictures" src="images/travertino_feidal.jpg" alt="photo_travertino">
                 </div>
-                <p>Travertino FEIDAL</p>
+                <h4>Travertino FEIDAL</h4>
                 <p>Матеріал дає можливість отримати ефект природного каменю травертину.</p>
             </div>
             <div class="portfolio_div_size">
@@ -112,7 +111,7 @@
                     <img class="portfolio_img pictures" src="images/innenlatex_seidenmatt_feidal.jpg"
                          alt="photo_innenlatex">
                 </div>
-                <p>Innenlatex Seidenmatt FEIDAL</p>
+                <h4>Innenlatex Seidenmatt FEIDAL</h4>
                 <p>Особливо стійка до миття та до дії миючих та дезінфікуючих засобів, має нейтральний запах.</p>
             </div>
         </div>
@@ -120,12 +119,11 @@
     </div>
 </section>
 <section class="cost_calculation">
-    <div class="cost_calculation_container1">
+    <div class="cost_calculation_box1 margin_auto">
         <p>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</p>
     </div>
-    <div class="cost_calculation_container2">
-        <!--        Не понял как сделать без дива который ниже-->
-        <div class="d-flex cost_calculation_container2_div_margin_bottom">
+    <div class="cost_calculation_box2">
+        <div class="d-flex cost_calculation_box2_div_margin_bottom">
             <p>Какая услуга Вас интересует?</p>
             <p>Вопрос 1 из 5</p>
         </div>
@@ -133,7 +131,7 @@
             <div>
                 <input type="radio" name="cost_calculation" id="decoration">
                 <label class="d-flex" for="decoration">
-                    <span>Декоративная штукатуркa</span>
+                    <span>Декоративная штукатурка</span>
                 </label>
                 <input type="radio" name="cost_calculation" id="paint">
                 <label class="d-flex" for="paint">
@@ -146,7 +144,7 @@
 
             </div>
             <div class="cost_calculation_div_button">
-                <div class="cost_calculation_div_imgsize">
+                <div class="cost_calculation_div_img-size">
                     <img src="images/drawing.jpg" alt="photo_drawing">
                 </div>
                 <button type="reset">Назад</button>
@@ -158,117 +156,98 @@
     </div>
 </section>
 <section class="catalog">
-    <img class="pictures catalog_frame" src="images/frame_catalog.svg" alt="frame_catalog">
-    <div class="catalog_main">
-        <h3>Каталог фактур</h3>
-        <ul class="catalog_main_margin_ul">
-            <li>
-                <ul class="d-flex catalog_main_margin_li">
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/grotto.jpg" alt="photo_grotto">
-                        </div>
-                        <p>GROTTO</p>
-                    </li>
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/marmorino.jpg" alt="photo_marmorino">
-                            <p>MARMORINO</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/veneziano.jpg" alt="photo_venziano">
-                            <p>VENEZIANO</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/magie.jpg" alt="photo_magie">
-                            <p>MAGIE</p>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <ul class="d-flex">
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/lava.jpg" alt="photo_lava">
-                            <p>LAVA</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/persia.jpg" alt="photo_persia">
-                            <p>PERSIA</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/sahara_gold.jpg" alt="photo_sahara_gold">
-                            <p>SAHARA GOLD</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="catalog_div_imgsize">
-                            <img src="images/travertino.jpg" alt="photot_travertino">
-                            <p>TRAVERTINO</p>
-                        </div>
-                    </li>
-                </ul>
-
-            </li>
-        </ul>
-
+    <div class="container">
+        <h3 class="catalog_h3 text_align_normal">Каталог фактур</h3>
+        <div class="catalog_main_box d-flex wrap text_align_normal">
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/grotto.jpg" alt="photo_grotto">
+                </div>
+                <p>GROTTO</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/marmorino.jpg" alt="photo_marmorino">
+                </div>
+                <p>MARMORINO</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/veneziano.jpg" alt="photo_venziano">
+                </div>
+                <p>VENEZIANO</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/magie.jpg" alt="photo_magie">
+                </div>
+                <p>MAGIE</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/lava.jpg" alt="photo_lava">
+                </div>
+                <p>LAVA</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/persia.jpg" alt="photo_persia">
+                </div>
+                <p>PERSIA</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/sahara_gold.jpg" alt="photo_sahara_gold">
+                </div>
+                <p>SAHARA GOLD</p>
+            </div>
+            <div class="catalog_box_img">
+                <div class="catalog_img-size">
+                    <img src="images/travertino.jpg" alt="photot_travertino">
+                </div>
+                <p>TRAVERTINO</p>
+            </div>
+        </div>
         <a href="#">Показать больше</a>
     </div>
 </section>
 <section class="video_review">
     <div class="container">
         <h3> Видеоотзывы</h3>
-        <div class="container">
-            <ul class="d-flex ">
-                <li>
-                    <div class="video_review_div_imgsize">
-                        <img src="images/video_review_hallway.jpg" alt="video_review1">
-                    </div>
-                    <p>Влажность и мебель</p>
-                    <p>Мармушка обычно используется для вылова в северных морях </p>
-                </li>
-                <li>
-                    <div class="video_review_div_imgsize">
-                        <img src="images/video_review_bedroom.jpg" alt="video_review1">
-                    </div>
-                    <p>Влажность и мебель</p>
-                    <p>Мармушка обычно используется для вылова в северных морях </p>
-                </li>
-                <li>
-                    <div class="video_review_div_imgsize">
-                        <img src="images/video_review_hall.jpg" alt="video_review1">
-                    </div>
-                    <p>Влажность и мебель</p>
-                    <p>Мармушка обычно используется для вылова в северных морях </p>
-                </li>
-                <li>
-                    <div class="video_review_div_imgsize">
-                        <img src="images/video_review_kitchen.jpg" alt="video_review1">
-                    </div>
-                    <p>Влажность и мебель</p>
-                    <p>Мармушка обычно используется для вылова в северных морях </p>
-                </li>
-            </ul>
-
+        <div class="d-flex">
+            <div class="video_box">
+                <div class="video_review_div_img-size">
+                    <img src="images/video_review_hallway.jpg" alt="video_review1">
+                </div>
+                <h5>Влажность и мебель</h5>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+            </div>
+            <div class="video_box">
+                <div class="video_review_div_img-size">
+                    <img src="images/video_review_bedroom.jpg" alt="video_review1">
+                </div>
+                <h5>Влажность и мебель</h5>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+            </div>
+            <div class="video_box">
+                <div class="video_review_div_img-size">
+                    <img src="images/video_review_hall.jpg" alt="video_review1">
+                </div>
+                <h5>Влажность и мебель</h5>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+            </div>
+            <div class="video_box">
+                <div class="video_review_div_img-size">
+                    <img src="images/video_review_kitchen.jpg" alt="video_review1">
+                </div>
+                <h5>Влажность и мебель</h5>
+                <p>Мармушка обычно используется для вылова в северных морях </p>
+            </div>
         </div>
-
-
     </div>
-
-
 </section>
 <section class="section_order">
-    <img class="section_order_frame" src="images/Frame4.svg" alt="Frame">
-    <div class="container d-flex">
+      <div class="container d-flex">
         <form name="discuss_project" action="#" method="post">
             <h3>Давайте обсудим ваш проект</h3>
             <div>
@@ -277,7 +256,7 @@
             </div>
             <div>
                 <label for="Tel"></label>
-                <input id="Tel" name="phone_number" type="tel" placeholder="Номер телефона">
+                <input id="Tel" name="phone_number" type="search" placeholder="Номер телефона">
             </div>
             <div id="section_order_div_textarea">
                 <label for="Comments"></label>
@@ -286,6 +265,9 @@
             </div>
             <button type="submit">Заказать проект</button>
         </form>
+          <div class="section_order_div_pictures">
+              <img class="pictures order_img_border" src="images/S8D2.jpg" alt="photo_order">
+          </div>
     </div>
 </section>
 <footer>
