@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+    }
+
+    /*Header*/
+    header .container {
+        max-width: 900px;
+        flex-wrap: wrap;
+
+
+    }
+    .nav_menu{
+
+    }
+
+    header li{
+        margin: 0 5px;
+    }
+    header img{
+
+    }
+    /*1 section*/
+    .second_section{
+        padding: 190px 0 117px;
+    }
+    .second_section .container{
+        max-width: 900px;
+        position: static;
+
+
+    }
+    .second_section .container.d-flex{
+        flex-wrap: wrap;
+    }
+
+    .about_us{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .about_us h3{
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .bathroom{
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .bathroom img{
+        width: 900px;
+    }
+    /*THIRD SECTION*/
+    .third_section .d-flex.align_items_normal{
+        flex-wrap: wrap;
+    }
+    .advantages{
+        padding: 30px 30px;
+        max-width: 350px;
+        margin-bottom: 50px;
+
+    }
+    .advantages img{
+        margin-bottom: 20px;
+    }
+    .advantages h5{
+        text-align: center;
+    }
+
+}
