@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
     .container {
         max-width: 900px;
     }
@@ -6,66 +6,292 @@
     /*Header*/
     header .container {
         max-width: 900px;
-        flex-wrap: wrap;
-
-
-    }
-    .nav_menu{
-
     }
 
-    header li{
+    header .container img {
+        margin-left: -50px;
+    }
+
+    header li {
         margin: 0 5px;
     }
-    header img{
+
+    header img {
 
     }
+
     /*1 section*/
-    .second_section{
+    .second_section {
         padding: 190px 0 117px;
     }
-    .second_section .container{
+
+    .second_section .container {
         max-width: 900px;
         position: static;
 
 
     }
-    .second_section .container.d-flex{
+
+    .second_section .container.d-flex {
         flex-wrap: wrap;
     }
 
-    .about_us{
+    .about_us {
         max-width: 100%;
         margin-bottom: 40px;
     }
-    .about_us h3{
+
+    .about_us h3 {
         text-align: center;
         margin-bottom: 30px;
 
     }
-    .bathroom{
+
+    .bathroom {
         max-width: 100%;
         margin: auto;
 
     }
-    .bathroom img{
+
+    .bathroom img {
         width: 900px;
     }
+
     /*THIRD SECTION*/
-    .third_section .d-flex.align_items_normal{
+    .third_section .d-flex.align_items_normal {
         flex-wrap: wrap;
     }
-    .advantages{
-        padding: 30px 30px;
-        max-width: 350px;
-        margin-bottom: 50px;
 
-    }
-    .advantages img{
-        margin-bottom: 20px;
-    }
-    .advantages h5{
+    .third_section_h3 {
+        margin: 0 0 40px;
         text-align: center;
     }
 
+    .advantages {
+        padding: 20px 19px;
+        max-width: 400px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .advantages img {
+        margin-bottom: 0;
+        max-width: 62px;
+        margin-right: 20px;
+    }
+
+    .advantages:nth-of-type(3) {
+        margin: 0;
+    }
+
+    .advantages:nth-of-type(4) {
+        margin: 0;
+    }
+
+    .advantages h5 {
+        text-align: center;
+    }
+
+    /*PORTFOLIO */
+    .section_portfolio {
+        padding: 220px 0 100px;
+    }
+
+    /*Cost Calculation*/
+    .input_box {
+        margin-right: 10px;
+    }
+
+    .cost_calculation_div_button {
+        max-width: 400px;
+
+    }
+
+    .cost_calculation button:first-of-type {
+        display: block;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .cost_calculation button {
+        display: block;
+        width: 100%;
+    }
+
+    /*Catalog*/
+    .catalog_main_box .catalog_box_img:first-of-type, .catalog_main_box .catalog_box_img:nth-of-type(2) {
+        display: none;
+    }
 }
+
+@media only screen and (max-width: 927px) {
+    .container {
+        max-width: 850px;
+    }
+
+    /*HEADER*/
+    header .container {
+        max-width: 850px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    /*FIRST SECTION*/
+    .first_section h1 {
+        font-family: 'Futura', sans-serif;;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 65px;
+        text-shadow: 0 0 20px black;
+    }
+
+    /*SECOND SECTION*/
+    .second_section {
+        padding-top: 170px;
+    }
+
+    .second_section .container {
+        max-width: 850px;
+    }
+
+    .bathroom img {
+        width: 850px;
+    }
+
+    /*THIRD SECTION*/
+    .advantages {
+        max-width: 380px;
+    }
+
+    /*COST CALCULATION*/
+    .cost_calculation_box2 form label {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    /*CATALOG*/
+    .catalog {
+        padding: 180px 0 120px;
+    }
+
+    /*FOOTER*/
+    .footer_google {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 897px) {
+    .container {
+        max-width: 820px;
+    }
+
+    /*HEADER*/
+    header .container {
+        max-width: 820px;
+    }
+
+    /*SECOND SECTION*/
+    .second_section .container {
+        max-width: 820px;
+    }
+
+    .bathroom img {
+        width: 820px;
+    }
+
+    /*THIRD SECTION*/
+    .advantages {
+        max-width: 350px;
+    }
+
+    /*COST CALCULATION*/
+    .cost_calculation_div_button {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .container {
+        max-width: 780px;
+    }
+
+    /*HEADER*/
+    header .container {
+        max-width: 780px;
+    }
+
+    /*SECOND SECTION*/
+    .second_section .container {
+        max-width: 780px;
+    }
+
+    .bathroom img {
+        width: 780px;
+    }
+
+    /*THIRD SECTION*/
+    .advantages {
+        max-width: 350px;
+    }
+
+    /*COST CALCULATION*/
+    .cost_calculation_div_button {
+        max-width: 350px;
+    }
+
+    .cost_calculation_box2 form label {
+        font-size: 12px;
+
+    }
+
+    @media only screen and (max-width: 845px) {
+        .container {
+            max-width: 820px;
+        }
+
+        /*HEADER*/
+        header .container {
+            max-width: 820px;
+        }
+
+        /*SECOND SECTION*/
+        .second_section .container {
+            max-width: 820px;
+        }
+
+        .bathroom img {
+            width: 820px;
+        }
+
+        /*THIRD SECTION*/
+        .advantages {
+            max-width: 350px;
+        }
+
+        /*COST CALCULATION*/
+        .cost_calculation_div_button {
+            max-width: 380px;
+        }
+    }
+    @media only screen and (max-width: 375px){
+        header img{
+            width: 100px;
+            margin-left: 0;
+        }
+        .call_back_menu{
+
+        }
+        ul.call_back_menu .d-flex {
+           flex-wrap: wrap;
+        }
+    }
+}
+
+
+
+

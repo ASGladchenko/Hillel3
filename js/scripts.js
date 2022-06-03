@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-    $('.owl-carousel').owlCarousel({
+    $('.slide-one').owlCarousel({
         loop:true,
-        margin:0,
+        margin:20,
         nav:true,
         navText: [ '', ' ' ],
 
@@ -10,28 +10,33 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-
-            1000:{
+            800:{
+                items:2
+            },
+            850:{
+                items:2
+            },
+            1400:{
                 items:4
             }
         }
     });
     $(".slide-two").owlCarousel({
-        loop:true, //Зацикливаем слайдер
-        margin:10, //Отступ от картино если выводите больше 1
-        nav:false, //Отключил навигацию
-        autoplay:true, //Автозапуск слайдера
-        smartSpeed:2000, //Время движения слайда
-        autoplayTimeout:4000, //Время смены слайда
-        responsive:{ //Адаптация в зависимости от разрешения экрана
+        loop:true,
+        margin:20,
+        nav:true,
+        navText: [ '', ' ' ],
+
+        responsive:{
             0:{
                 items:1
             },
-            600:{
+           800:{
                 items:2
             },
+
             1000:{
-                items:5
+                items:3
             }
         }
     });

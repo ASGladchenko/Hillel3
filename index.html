@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+<!--    <link rel="stylesheet" href="css/media.css">-->
 </head>
 <body>
 <header>
@@ -70,27 +70,38 @@
         <div class="d-flex align_items_normal">
             <div class="advantages">
                 <img src="images/chek.svg" alt="Icon">
-                <h5 class="advantages_h">Первоклассное качество</h5>
-                <p>Высокое качество исполнения реализованных проектов и благодарные отзывы счастливых клиентов позволяют
-                    утверждать что декорирование стен – наше призвание.</p>
+                <div class="advantages_for_adaptive">
+                    <h5 class="advantages_h">Первоклассное качество</h5>
+                    <p>Высокое качество исполнения реализованных проектов и благодарные отзывы счастливых клиентов
+                        позволяют
+                        утверждать что декорирование стен – наше призвание.</p>
+                </div>
             </div>
             <div class="advantages">
                 <img src="images/word.svg" alt="Icon">
-                <h5 class="advantages_h">Материалы лучших брендов</h5>
-                <p>Подбор материалов берем на себя. Работаем с такими Торговыми Марками как Feidal, Spiver, Oikos, elf
-                    decor, San Marco</p>
+                <div class="advantages_for_adaptive">
+                    <h5 class="advantages_h">Материалы лучших брендов</h5>
+                    <p>Подбор материалов берем на себя. Работаем с такими Торговыми Марками как Feidal, Spiver, Oikos,
+                        elf
+                        decor, San Marco</p>
+                </div>
             </div>
             <div class="advantages">
                 <img src="images/truck.svg" alt="Icon">
-                <h5 class="advantages_h">Скорость выполнения работ</h5>
-                <p>Приступаем к выполнению работ по Вашему заказку сразу после выезда специалиста на осмотр объекта.
-                    Результат от 3-х рабочих дней.</p>
+                <div class="advantages_for_adaptive">
+                    <h5 class="advantages_h">Скорость выполнения работ</h5>
+                    <p>Приступаем к выполнению работ по Вашему заказку сразу после выезда специалиста на осмотр объекта.
+                        Результат от 3-х рабочих дней.</p>
+                </div>
             </div>
             <div class="advantages">
-                <img style="text-align: center" src="images/infinity.svg" alt="Icon">
-                <h5 class="advantages_h">Бесконечный творческий потенциал</h5>
-                <p>Наша команда - это не только крутые специалисты, но и креативные творческие люди, которые знают как
-                    воплотить в жизнь Ваши идеи</p>
+                <img src="images/infinity.svg" alt="Icon">
+                <div class="advantages_for_adaptive">
+                    <h5 class="advantages_h">Бесконечный творческий потенциал</h5>
+                    <p>Наша команда - это не только крутые специалисты, но и креативные творческие люди, которые знают
+                        как
+                        воплотить в жизнь Ваши идеи</p>
+                </div>
             </div>
 
         </div>
@@ -100,22 +111,7 @@
     <div class="container">
         <h3>Портфолио</h3>
         <div class="portfolio_main">
-            <div class="slide-two">
-                <div class="portfolio_div_size">
-                    <div class="portfolio_img_size">
-                        <img class="portfolio_img pictures" src="images/travertino_feidal.jpg" alt="photo_travertino">
-                    </div>
-                    <h4>Travertino FEIDAL</h4>
-                    <p>Матеріал дає можливість отримати ефект природного каменю травертину.</p>
-                </div>
-                <div class="portfolio_div_size">
-                    <div class="portfolio_img_size">
-                        <img class="portfolio_img pictures" src="images/innenlatex_seidenmatt_feidal.jpg"
-                             alt="photo_innenlatex">
-                    </div>
-                    <h4>Innenlatex Seidenmatt FEIDAL</h4>
-                    <p>Особливо стійка до миття та до дії миючих та дезінфікуючих засобів, має нейтральний запах.</p>
-                </div>
+            <div class="slide-two owl-carousel">
                 <div class="portfolio_div_size">
                     <div class="portfolio_img_size">
                         <img class="portfolio_img pictures" src="images/travertino_feidal.jpg" alt="photo_travertino">
@@ -137,40 +133,39 @@
     </div>
 </section>
 <section class="cost_calculation">
-    <div class="cost_calculation_box1 margin_auto">
-        <p>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</p>
-    </div>
-    <div class="cost_calculation_box2">
-        <div class="d-flex cost_calculation_box2_div_margin_bottom">
-            <p>Какая услуга Вас интересует?</p>
-            <p>Вопрос 1 из 5</p>
+    <div class="container">
+        <div class="cost_box margin_auto">
+            <p>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</p>
         </div>
-        <form class="d-flex cost_calculation_form" action="#">
-            <div class="input_box">
-                <input type="radio" name="cost_calculation" id="decoration">
-                <label class="d-flex" for="decoration">
-                    <span>Декоративная штукатурка</span>
-                </label>
-                <input type="radio" name="cost_calculation" id="paint">
-                <label class="d-flex" for="paint">
-                    <span>Покраска</span>
-                </label>
-                <input type="radio" name="cost_calculation" id="decoration_vs_paint">
-                <label class="d-flex" for="decoration_vs_paint">
-                    <span>Декоративная штукатурка + покраска</span>
-                </label>
-
+        <div class="cost_calculation_box2">
+            <div class="d-flex cost_calculation_box2_div_margin_bottom">
+                <p>Какая услуга Вас интересует?</p>
+                <p>Вопрос 1 из 5</p>
             </div>
-            <div class="cost_calculation_div_button">
-                <div class="cost_calculation_div_img-size">
-                    <img src="images/drawing.jpg" alt="photo_drawing">
+            <form class="d-flex cost_calculation_form" action="#">
+                <div class="input_box">
+                    <input type="radio" name="cost_calculation" id="decoration">
+                    <label class="d-flex" for="decoration">
+                        <span>Декоративная штукатурка</span>
+                    </label>
+                    <input type="radio" name="cost_calculation" id="paint">
+                    <label class="d-flex" for="paint">
+                        <span>Покраска</span>
+                    </label>
+                    <input type="radio" name="cost_calculation" id="decoration_vs_paint">
+                    <label class="d-flex" for="decoration_vs_paint">
+                        <span>Декоративная штукатурка + покраска</span>
+                    </label>
                 </div>
-                <button type="reset">Назад</button>
-                <button type="submit">Далее</button>
-            </div>
-        </form>
-
-
+                <div class="cost_calculation_div_button">
+                    <div class="cost_calculation_div_img-size">
+                        <img src="images/drawing.jpg" alt="photo_drawing">
+                    </div>
+                    <button type="reset">Назад</button>
+                    <button type="submit">Далее</button>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
 <section class="catalog">
@@ -233,143 +228,7 @@
     <div class="container">
         <h3> Видеоотзывы</h3>
 
-        <div class="owl-carousel">
-
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-        </div>
-
-        <div class="slide-two">
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
-            <div class="video_box">
-                <div class="video_review_div_img-size">
-                    <img src="images/arrow_video.png" alt="video_review1">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Q3VFZinmK8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <h5>Влажность и мебель</h5>
-                <p>Мармушка обычно используется для вылова в северных морях </p>
-            </div>
+        <div class="slide-one owl-carousel">
             <div class="video_box">
                 <div class="video_review_div_img-size">
                     <img src="images/arrow_video.png" alt="video_review1">
@@ -418,8 +277,7 @@
 
     </div>
 
-
-
+    </div>
 </section>
 <section class="section_order">
     <div class="container d-flex">
@@ -474,9 +332,7 @@
                     </div>
                     <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.9866491932266!2d30.707833968165218!3d46.44561303762204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6324c95db92e9%3A0x465f0578e75b2dfe!2z0J3QvtCy0LAg0J_QvtGI0YLQsC4g0J_QvtGI0YLQvtCy0LUg0LLRltC00LTRltC70LXQvdC90Y8g4oSWMTQuINCe0LTQtdGB0LA!5e0!3m2!1sru!2sua!4v1654068397878!5m2!1sru!2sua"
-                            width="100%" height="100%" style="border-radius:20px; overflow: hidden" allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
+                            width="100%" height="100%"  allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
             </li>
